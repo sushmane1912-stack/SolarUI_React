@@ -1,0 +1,19 @@
+.login-error {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #e74c3c;
+  background-color: #fdecea;
+  color: #c0392b;
+  border-radius: 4px;
+}
+
+.login-error h2 {
+  margin: 0 0 0.5rem;
+}
+
+.content-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2980b9;
+  text-decoration: underline;
+}

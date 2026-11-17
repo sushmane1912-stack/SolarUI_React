@@ -1,0 +1,93 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #f7f9fc;
+}
+
+.register-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-card h2 {
+  margin-bottom: 1.5rem;
+  color: #0077b6;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+
+.register-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form input {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.register-form input:focus {
+  border-color: #0077b6;
+  outline: none;
+}
+
+.register-form button {
+  background: #0077b6;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+}
+
+.register-form button:hover {
+  background: #023e8a;
+  transform: translateY(-2px);
+}
+
+/* ✅ Auth link styles */
+.auth-link {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+
+.auth-link a {
+  color: #0077b6;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.auth-link a:hover {
+  color: #023e8a;
+  text-decoration: underline;
+}
+
+.error-text {
+  color: #dc3545;
+  font-size: 0.8rem;
+  margin: 4px 0 0 4px;
+  text-align: left;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Utility-Scale Solar",
+    "capacity": "≥ 1 MW (up to hundreds of MW)",
+    "purpose": "Supplies electricity directly to the grid",
+    "landRequirement": "4–5 acres per MW"
+  },
+  {
+    "type": "Commercial & Industrial (C&I) Solar",
+    "capacity": "100 kW – 1 MW",
+    "purpose": "Factories, schools, hospitals, malls, offices",
+    "landRequirement": "Depends on rooftop/ground space"
+  },
+  {
+    "type": "Residential / Distributed Solar",
+    "capacity": "≤ 100 kW",
+    "purpose": "Homes and small businesses, net metering",
+    "landRequirement": "Limited by rooftop space"
+  }
+]

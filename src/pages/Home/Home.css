@@ -1,0 +1,61 @@
+.home {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden; /* prevents vertical scroll */
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh; /* full viewport height */
+  background: url("../images/solar_home.png") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #f9c74f;
+  max-width: 700px;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero-overlay p {
+  font-size: 1.3rem;
+  color: #f9c74f;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* CTA Section */
+.cta-section {
+  position: absolute;
+  bottom: 2rem; /* places button visually below image */
+  width: 100%;
+  text-align: center;
+}
+
+.cta-btn {
+  background: #0077b6;
+  color: #fff;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  background: #023e8a;
+  transform: translateY(-3px);
+}

@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.navbar a {
+  margin-right: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.profile-menu {
+  position: relative;
+}
+
+.profile-icon {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 36px;
+  background: #fff;
+  color: #111827;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  min-width: 140px;
+  z-index: 100;
+}
+
+.dropdown a,
+.dropdown button {
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #111827;
+}
+
+.dropdown a:hover,
+.dropdown button:hover {
+  background-color: #f3f4f6;
+}
